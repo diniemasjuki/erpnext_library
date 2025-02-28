@@ -36,6 +36,13 @@
    "reqd": 1
   }, 
   {
+   "fieldname": "genre", 
+   "fieldtype": "Data", 
+   "label": "Genre", 
+   "permlevel": 0, 
+   "reqd": 0
+  }, 
+  {
    "fieldname": "publisher", 
    "fieldtype": "Data", 
    "label": "Publisher", 
@@ -84,7 +91,7 @@
  "modified_by": "Administrator", 
  "module": "Library Management", 
  "name": "Article", 
- "name_case": "article_name", 
+ "name_case": "Upper Case", 
  "owner": "Administrator", 
  "permissions": [
   {
@@ -96,6 +103,6 @@
    "write": 1
   }
  ], 
- "search_fields": "article_name,author", 
+ "search_fields": "article_name,author,isbn,", 
  "title_field": "article_name"
 }

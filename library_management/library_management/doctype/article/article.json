@@ -80,7 +80,7 @@
   {
    "fieldname": "description", 
    "fieldtype": "Text", 
-   "in_list_view": 1, 
+   "in_list_view": 0, 
    "label": "Description", 
    "permlevel": 0, 
    "reqd": 0

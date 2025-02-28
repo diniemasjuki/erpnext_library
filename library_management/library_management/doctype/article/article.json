@@ -15,7 +15,8 @@
    "fieldtype": "Data", 
    "in_list_view": 1, 
    "label": "Article Name", 
-   "permlevel": 0, 
+   "permlevel": 0,
+   "unique": 1,
    "reqd": 1
   }, 
   {
@@ -23,7 +24,7 @@
    "fieldtype": "Data", 
    "label": "Author", 
    "permlevel": 0, 
-   "reqd": 1
+   "reqd": 0
   }, 
   {
    "fieldname": "status", 
@@ -61,7 +62,7 @@
    "fieldname": "image", 
    "fieldtype": "Attach Image", 
    "in_list_view": 0, 
-   "label": "Image", 
+   "label": "Cover Image", 
    "permlevel": 0
   },
   {
@@ -83,7 +84,7 @@
  "modified_by": "Administrator", 
  "module": "Library Management", 
  "name": "Article", 
- "name_case": "", 
+ "name_case": "article_name", 
  "owner": "Administrator", 
  "permissions": [
   {

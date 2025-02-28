@@ -6,9 +6,10 @@ import frappe
 from frappe.model.document import Document
 
 class Article(Document):
-    def before_save(self):
-        if self.article_name:
-            self.article_name = self.article_name.upper()
+	
+	def before_save(self):
+		if self.article_name:
+			self.article_name = self.article_name.upper()
 		
 	def get_status(self):
 		last_transaction = frappe.get_list("Library Transaction",

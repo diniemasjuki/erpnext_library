@@ -59,7 +59,7 @@
   }, 
   {
    "fieldname": "image", 
-   "fieldtype": "Attach image", 
+   "fieldtype": "Attach Image", 
    "in_list_view": 0, 
    "label": "Image", 
    "permlevel": 0

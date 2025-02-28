@@ -91,7 +91,7 @@
  "modified_by": "Administrator", 
  "module": "Library Management", 
  "name": "Article", 
- "name_case": "Upper Case", 
+ "name_case": "", 
  "owner": "Administrator", 
  "permissions": [
   {

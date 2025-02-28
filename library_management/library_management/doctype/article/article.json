@@ -59,19 +59,11 @@
   }, 
   {
    "fieldname": "image", 
-   "fieldtype": "Attach", 
+   "fieldtype": "Attach image", 
    "in_list_view": 0, 
    "label": "Image", 
    "permlevel": 0
-  }, 
-  {
-   "fieldname": "image_view", 
-   "fieldtype": "Image", 
-   "in_list_view": 1, 
-   "label": "Image View", 
-   "options": "image", 
-   "permlevel": 0
-  }, 
+  },
   {
    "fieldname": "section_break_11", 
    "fieldtype": "Section Break", 

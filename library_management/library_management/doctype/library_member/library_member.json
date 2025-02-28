@@ -11,7 +11,7 @@
    "in_list_view": 1, 
    "label": "First Name", 
    "permlevel": 0, 
-   "reqd": 1
+   "reqd": 0
   }, 
   {
    "fieldname": "last_name", 

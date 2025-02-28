@@ -83,7 +83,7 @@
    "in_list_view": 1, 
    "label": "Description", 
    "permlevel": 0, 
-   "reqd": 1
+   "reqd": 0
   }
  ], 
  "image_field": "image",
